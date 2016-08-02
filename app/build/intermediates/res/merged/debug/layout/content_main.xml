@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    >
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher"
+        android:textAlignment="center" />
+    <!-- spaces -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+    <!-- Space -->
+    <TextView
+        android:id="@+id/textProductCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Product Code"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/textProductCodeResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textProductCode"
+        android:paddingBottom="20dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+    <View
+        android:id="@+id/hr1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textProductCodeResult"
+        android:background="@android:color/holo_green_dark"
+        android:paddingBottom="10dp" />
+    <TextView
+        android:id="@+id/textDateCreated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/hr1"
+        android:paddingTop="10dp"
+        android:text="Date Created"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/textDateCreatedResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDateCreated"
+        android:paddingBottom="10dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+    <View
+        android:id="@+id/hr2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textDateCreatedResult"
+        android:background="@android:color/holo_green_dark"
+        android:paddingBottom="10dp" />
+    <TextView
+        android:id="@+id/textExpiryDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textDateCreatedResult"
+        android:layout_alignStart="@+id/textDateCreatedResult"
+        android:layout_below="@+id/textDateCreatedResult"
+        android:paddingTop="10dp"
+        android:text="Expiry Date"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/textExpiryDateResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textExpiryDate"
+        android:layout_alignStart="@+id/textExpiryDate"
+        android:layout_below="@+id/textExpiryDate"
+        android:paddingBottom="10dp"
+        android:text="Large Text"
+        android:textSize="14sp" />
+    <View
+        android:id="@+id/hr3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textExpiryDateResult"
+        android:background="@android:color/holo_green_dark"
+        android:paddingBottom="10dp" />
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="Description"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/textDescriptionResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textDescription"
+        android:layout_alignStart="@+id/textDescription"
+        android:layout_below="@+id/textDescription"
+        android:paddingBottom="10dp"
+        android:text="Large Text"
+        android:textSize="14sp" />
+    <View
+        android:id="@+id/viewDesc"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textDescription"
+        android:background="@android:color/holo_green_dark"
+        android:paddingBottom="10dp" />
+</LinearLayout>

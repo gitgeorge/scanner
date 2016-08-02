@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPink">#FF4081</color>
+    <color name="colorPinkLight">#ff6699</color>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="colorAccent">#FFC107</color>
+    <!--for the background of the FAB -->
+</resources>

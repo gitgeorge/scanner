@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="20dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quitNoFakes"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/dialogButtonOK"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="@string/ok" />
+
+        <Button
+            android:id="@+id/dialogButtonCancel"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>

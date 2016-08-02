@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoFakes</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="about">About</string>
+    <string name="aboutInfo">NoFakes Scanner\n Version 1.0 \n Developed by David \n All rights reserved 2016</string>
+    <string name="quitNoFakes"> Are you sure you want to quit? </string>
+</resources>
